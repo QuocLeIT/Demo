@@ -1,0 +1,178 @@
+/*<link rel="stylesheet" type="text/css" href="style.css”>*/
+
+body {
+   background-image: url("http://www.ngoclopoto.com/upload/product/08919531653.jpg");
+   background-repeat: no-repeat;
+}
+div.background-image {
+/*background-image: url("E:\Lap trinh\trang web08919531653.jpg"); tai s lam nhu the nay thi k duoc*/
+  background: url(http://www.ngoclopoto.com/upload/product/08919531653.jpg);
+  text-align: center;
+  color: #f2f2f2;
+  margin: 0;
+  padding: 30px 300px 80px 300px;
+}
+/*phan tieu de cuoi trang*/
+div.background-color {
+  background-color: #1a1a1a;
+  margin: 0;
+  padding: 20px 30px 50px 10px;
+}
+/*mau cho phan Our*/
+div.background-color2 {
+background-color: #262626;
+padding: 20px 50px 20px 50px;
+}
+
+div.img {
+  margin: 30px;
+  float: left;
+  width: 220px;}
+div.padding {padding: 50px 50px;}
+/*tao cac danh muc Home About ...*/
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background-color: none;
+}
+ul.left {margin-left: 500px;}
+ul.right {margin-right: 650px;}
+/*li:hover {background-color:  #ff1a1a;}/*doi mau nen cua o: mau do*/
+li {float: left;}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+li.TieuDeDauTrang {padding: 14px 50px;height: 150px;}
+.TieuDeDauTrang:hover {background-color: #ff1a1a;}
+li.Trang {
+  background-color: #ff1a1a;
+  padding: 14px 50px;
+  height: 150px;}
+li.TieuDeCuoiTrang {padding: 7px 25px;}
+.Mau {background-color: #ff1a1a;}
+/*li a:hover:not(.active) {background-color: none;}/*doi mau nen cua chu: khong mau*/
+  
+body {font-family: "Arial", Times, Sans Serif;}
+p.{font-family: "Arial", Times, Sans Serif;}
+p.TieuDe {font-size: 40px;}
+   
+.center {
+  position: absolute;
+  font-size: 18px;
+  left: 20%;
+  top: 50%;
+  width: 100%;
+}
+/*div.img:hover {border: 1px solid #777;}*/
+img.right {
+float: right;
+margin: 0 75px 10px 10px;}
+img.icon { border-radius: 50%;}
+
+div.img img {
+  width: 100%;
+  height: auto;
+}
+div.desc {
+  margin: 5px;
+  padding: 0px;
+  text-align: left;
+}
+div.text {
+  margin: 0px;
+  padding-left: 510px;
+  color: #e6e6e6;
+  text-align: left;
+}
+div.background-OurServices {background-color: #ddd;}
+
+.paddingTruck {
+   padding-left: 100px;
+   padding-right: 700px;}
+.TextRed {color: red;}
+.TextBlack {color: black;}
+.Textwhite {color: #f2f2f2;}
+.TextCenter {
+  text-align: center;
+  padding: 60px 150px 80px 150px;
+  font-size: 20px;}
+.xam {color: #8c8c8c}
+.padding-left {padding-left: 90px;}
+.padding-right {padding-right: 600px;}
+.padding-top-bottom {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+a:link { line-height: none; background-color: none;}
+a:hover {
+  color: white;
+  text-decoration: none;
+  background-color: none;}/*dua chuot vao link thi co mau den*/
+  a.is:hover { color: black;}
+a:active {
+  text-decoration: none;
+  background-color: none;
+}
+input[type=text] {
+  width: 40%;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #595959;
+  background-color: #1a1a1a;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 10px;
+  border-bottom: 2px solid #404040;
+}
+
+input[type=button]{
+  background-color: #777;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.btn_subscribe:hover {
+  background-color: #ff1a1a;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  transition-duration: 1s;
+}
+.service {
+  padding: 20px;
+  height: 250px;
+  /*background-color: #ddd;/*mau cua khung*/
+  text-align: center;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  transition-duration: 1s;
+}
+.service:hover {background-color: #ff8080;}
+.background-SeeMore {background-color: #777;}
+.background-SeeMore:hover {background-color: #ff1a1a;}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto;
+  float: center;
+}
+div.Wrap{
+  width: 70%;
+  height: auto;
+  margin: auto;
+  float: center;
+  color: white;
+}
